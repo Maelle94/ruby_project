@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
- 
+
+ruby '2.3.1'
+
 gem 'rails',        '5.0.0.1'
 gem 'bcrypt',         '3.1.11'
 gem 'faker',          '1.6.6'
@@ -15,6 +17,7 @@ gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
 gem 'pg', '~> 0.18.4'
 gem 'pg_search'
+gem 'pgreset'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
