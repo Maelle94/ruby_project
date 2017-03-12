@@ -21,6 +21,7 @@ gem 'jbuilder',     '2.4.1'
 gem 'pg', '~> 0.18.4'
 gem 'pg_search'
 gem 'pgreset'
+gem 'countdown'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
